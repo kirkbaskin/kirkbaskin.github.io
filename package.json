@@ -1,0 +1,24 @@
+{
+  "name": "kirkbaskin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirkbaskin/kirkbaskin.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirkbaskin/kirkbaskin.github.io/issues"
+  },
+  "homepage": "https://github.com/kirkbaskin/kirkbaskin.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.1.4"
+  }
+}
