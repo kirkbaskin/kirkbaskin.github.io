@@ -1,7 +1,9 @@
-<nav>
+<ul class="flex">
   {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}class="text-red-800"{% endif %}>
-      {{ item.name }}
-    </a>
+    <li class="mr-6">
+      <a href="{{ item.link }}" class="{% if page.url == item.link %}text-red-800{% endif %} {% if page.url != item.link %}text-blue-500{% endif %} hover:text-blue-800">
+        {{ item.name }}
+      </a>
+    </li>
   {% endfor %}
-</nav>
+</ul>
